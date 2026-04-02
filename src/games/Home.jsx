@@ -112,7 +112,7 @@ export default function Home({ onSelect }) {
                 fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif',
                 letterSpacing: '-0.01em',
               }}>
-                Social Game Box
+                Party Game Box
               </div>
               <div style={{
                 fontSize: 12, color: 'rgba(235,235,245,0.38)',

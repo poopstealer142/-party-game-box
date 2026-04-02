@@ -3,16 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Party Game Box</title>
-    <meta name="description" content="10 free party games for groups. No accounts, no app download, just pass the phone and play." />
+    <title>Party Game Box – Free Party Games for Groups</title>
+    <meta name="description" content="Party Game Box is your go-to destination for free party games. Play Werewolf, Never Have I Ever, Would You Rather, and 7 more — no app download, no accounts, just pass the phone." />
+    <meta name="keywords" content="party games, party game box, free party games, games for groups, werewolf game, never have i ever, would you rather, game night" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://partygamebox.com/" />
+
+    <!-- PWA / mobile -->
     <meta name="theme-color" content="#000000" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Party Game Box" />
-    <meta property="og:title" content="Party Game Box" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Party Game Box – Free Party Games for Groups" />
     <meta property="og:description" content="10 free party games for groups. No accounts, no app download, just pass the phone and play." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://partygamebox.com" />
+    <meta property="og:url" content="https://partygamebox.com/" />
+    <meta property="og:image" content="https://partygamebox.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Party Game Box" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Party Game Box – Free Party Games for Groups" />
+    <meta name="twitter:description" content="10 free party games for groups. No accounts, no app download, just pass the phone and play." />
+    <meta name="twitter:image" content="https://partygamebox.com/og-image.png" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Party Game Box",
+      "url": "https://partygamebox.com",
+      "description": "10 free party games for groups including Werewolf, Never Have I Ever, Would You Rather, and more. No accounts or downloads required.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://partygamebox.com/",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,6 +56,25 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Fallback content for crawlers that don't execute JavaScript -->
+    <noscript>
+      <h1>Party Game Box – Free Party Games for Groups</h1>
+      <p>Party Game Box offers 10 free party games you can play with friends and family. No app download or account required — just open the site and pass the phone.</p>
+      <h2>Games available:</h2>
+      <ul>
+        <li><strong>Werewolf</strong> – Hidden roles, night kills, trust no one. 5–15 players.</li>
+        <li><strong>Impostor</strong> – Secret words, deduction, and bluffing. 3–24 players.</li>
+        <li><strong>Never Have I Ever</strong> – Confess, tap, and judge. 3+ players.</li>
+        <li><strong>Hot Takes</strong> – Submit opinions and guess the author. 3+ players.</li>
+        <li><strong>Would You Rather</strong> – Vote secretly, big reveal, debate. 2+ players.</li>
+        <li><strong>Alias</strong> – Describe words without using taboo terms. 4+ players.</li>
+        <li><strong>Wavelength</strong> – One clue, hit the spectrum, telepathy. 2+ players.</li>
+        <li><strong>I'm Hosting a Party</strong> – Secret rule, yes or no, guess it. 2+ players.</li>
+        <li><strong>Who's Faking It?</strong> – Answer a question, spot the faker, vote. 3+ players.</li>
+        <li><strong>Herd Mentality</strong> – Same question, match the majority, score. 2+ players.</li>
+      </ul>
+      <p>Enable JavaScript to play all games at <a href="https://partygamebox.com">partygamebox.com</a>.</p>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
