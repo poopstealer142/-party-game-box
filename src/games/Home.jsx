@@ -3,8 +3,6 @@ import { useState } from 'react'
 const GAMES = [
   { id: 'werewolf', icon: '🐺', name: 'Werewolf', desc: 'Hidden roles · Night kills · Trust no one', players: '5–15', time: '20–40m', tag: 'social', color: '#8B5CF6' },
   { id: 'impostor', icon: '🕵️', name: 'Impostor', desc: 'Secret words · Deduction · Bluffing', players: '3–24', time: '10–20m', tag: 'social', color: '#EF4444' },
-  { id: 'hotseat', icon: '🪑', name: 'Hot Seat', desc: 'Answer anything · No hiding', players: '3+', time: '15m+', tag: 'social', color: '#F59E0B' },
-  { id: 'truths', icon: '🤥', name: 'Two Truths & A Lie', desc: 'Bluff · Guess · Expose', players: '3+', time: '10–15m', tag: 'quick', color: '#06B6D4' },
   { id: 'never', icon: '🙈', name: 'Never Have I Ever', desc: 'Confess · Tap · Judge', players: '3+', time: '10–20m', tag: 'social', color: '#F43F5E' },
   { id: 'hottakes', icon: '🌶️', name: 'Hot Takes', desc: 'Submit · Guess the author', players: '3+', time: '10–15m', tag: 'quick', color: '#EA580C' },
   { id: 'wyr', icon: '🤔', name: 'Would You Rather', desc: 'Vote secretly · Big reveal · Debate', players: '2+', time: '10–20m', tag: 'quick', color: '#A855F7' },
@@ -12,6 +10,7 @@ const GAMES = [
   { id: 'wavelength', icon: '🌊', name: 'Wavelength', desc: 'One clue · Hit the spectrum · Telepathy', players: '2+', time: '10–20m', tag: 'social', color: '#6366F1' },
   { id: 'party', icon: '🎉', name: "I'm Hosting a Party", desc: 'Secret rule · Yes or no · Guess it', players: '2+', time: '10–20m', tag: 'quick', color: '#EC4899' },
   { id: 'fakingit', icon: '🔍', name: "Who's Faking It?", desc: 'Answer a question · Spot the faker · Vote', players: '3+', time: '10–20m', tag: 'social', color: '#F97316' },
+  { id: 'herdmentality', icon: '🐑', name: 'Herd Mentality', desc: 'Same question · Match the majority · Score', players: '2+', time: '10–20m', tag: 'quick', color: '#10B981' },
 ]
 
 const TAGS = [
